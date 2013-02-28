@@ -7,12 +7,13 @@ REST Server
 -----------
 
 __GET__ /rights - _Returns all rights as an array of objects_
+
 __GET__ /rights/:id  - _Returns an individual right as an object_
 
 Todo
 ----
-- [ ] Enter remaining rights and freedoms.
-- [ ] Best way to serve structured right/freedom in JSON. (Currently including HTML).
+- [] Enter remaining rights and freedoms.
+- [] Best way to serve structured right/freedom in JSON. (Currently including HTML).
 
 License
 -------
