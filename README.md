@@ -12,8 +12,15 @@ __GET__ /rights/:id  - _Returns an individual right as an object_
 
 Todo
 ----
-- [] Enter remaining rights and freedoms.
-- [] Best way to serve structured right/freedom in JSON. (Currently including HTML).
+
+- [ ] a task list item
+- [ ] list syntax required
+- [ ] normal **formatting**, @mentions, #1234 refs
+- [ ] incomplete
+- [x] completed
+
+- [ ] Enter remaining rights and freedoms.
+- [ ] Best way to serve structured right/freedom in JSON. (Currently including HTML).
 
 License
 -------
