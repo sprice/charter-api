@@ -16,6 +16,7 @@ Todo
 - Enter remaining rights and freedoms.
 - Find best way to serve structured right/freedom in JSON.
   (Currently including HTML).
+- Sort out list item 16.1 (it's presented as 17)
 
 License
 -------
