@@ -1,5 +1,5 @@
-Charter
-=======
+Charter API
+===========
 
 A REST API that delivers the [Canadian Charter of Rights and Freedoms].
 
