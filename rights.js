@@ -18,7 +18,7 @@ var rights = [
   {
     id: 2,
     title: 'Fundamental Freedoms',
-    markup: 'Everyone has the following fundamental freedoms:<ul><li>freedom of conscience and religion;</li><li>freedom of thought, belief, opinion and expression, including freedom of the press and other media of communication;</li><li>freedom of peaceful assembly; and</li><li>freedom of association.</li></ul>',
+    markup: 'Everyone has the following fundamental freedoms:<ol class="alpha"><li>freedom of conscience and religion;</li><li>freedom of thought, belief, opinion and expression, including freedom of the press and other media of communication;</li><li>freedom of peaceful assembly; and</li><li>freedom of association.</li></ol>',
     section: 'fundamental-freedoms',
     wikipedia: 'http://en.wikipedia.org/wiki/Section_Two_of_the_Canadian_Charter_of_Rights_and_Freedoms'
   },
@@ -32,7 +32,7 @@ var rights = [
   {
     id: 4,
     title: 'Democratic Rights',
-    markup: '<ol><li>No House of Commons and no legislative assembly shall continue for longer than five years from the date fixed for the return of the writs at a general election of its members.</li><li>In time of real or apprehended war, invasion or insurrection, a House of Commons may be continued by Parliament and a legislative assembly may be continued by the legislature beyond five years if such continuation is not opposed by the votes of more than one-third of the members of the House of Commons or the legislative assembly, as the case may be.</li></ol>',
+    markup: '<ol class="decimal"><li>No House of Commons and no legislative assembly shall continue for longer than five years from the date fixed for the return of the writs at a general election of its members.</li><li>In time of real or apprehended war, invasion or insurrection, a House of Commons may be continued by Parliament and a legislative assembly may be continued by the legislature beyond five years if such continuation is not opposed by the votes of more than one-third of the members of the House of Commons or the legislative assembly, as the case may be.</li></ol>',
     section: 'democratic-rights',
     wikipedia: 'http://en.wikipedia.org/wiki/Section_Four_of_the_Canadian_Charter_of_Rights_and_Freedoms'
   },
@@ -46,7 +46,7 @@ var rights = [
   {
     id: 6,
     title: 'Mobility Rights',
-    markup: '<ol><li>Every citizen of Canada has the right to enter, remain in and leave Canada.</li><li>Every citizen of Canada and every person who has the status of a permanent resident of Canada has the right<ol><li>to move to and take up residence in any province; and</li><li>to pursue the gaining of a livelihood in any province.</li></ol></li><li>The rights specified in subsection (2) are subject to<ol><li>any laws or practices of general application in force in a province other than those that discriminate among persons primarily on the basis of province of present or previous residence; and</li><li>any laws providing for reasonable residency requirements as a qualification for the receipt of publicly provided social services.</li></ol></li><li>Subsections (2) and (3) do not preclude any law, program or activity that has as its object the amelioration in a province of conditions of individuals in that province who are socially or economically disadvantaged if the rate of employment in that province is below the rate of employment in Canada.</li></ol>',
+    markup: '<ol class="decimal"><li>Every citizen of Canada has the right to enter, remain in and leave Canada.</li><li>Every citizen of Canada and every person who has the status of a permanent resident of Canada has the right<ol><li>to move to and take up residence in any province; and</li><li>to pursue the gaining of a livelihood in any province.</li></ol></li><li>The rights specified in subsection (2) are subject to<ol><li>any laws or practices of general application in force in a province other than those that discriminate among persons primarily on the basis of province of present or previous residence; and</li><li>any laws providing for reasonable residency requirements as a qualification for the receipt of publicly provided social services.</li></ol></li><li>Subsections (2) and (3) do not preclude any law, program or activity that has as its object the amelioration in a province of conditions of individuals in that province who are socially or economically disadvantaged if the rate of employment in that province is below the rate of employment in Canada.</li></ol>',
     section: 'mobility-rights',
     wikipedia: 'http://en.wikipedia.org/wiki/Section_Six_of_the_Canadian_Charter_of_Rights_and_Freedoms'
   },
@@ -74,14 +74,14 @@ var rights = [
   {
     id: 10,
     title: 'Legal Rights',
-    markup: 'Everyone has the right on arrest or detention<ul><li>to be informed promptly of the reasons therefore;</li><li>to retain and instruct counsel without delay and to be informed of that right; and</li><li>to have the validity of the detention determined by way of habeas corpus and to be released if the detention is not lawful.</li></ul>',
+    markup: 'Everyone has the right on arrest or detention<ol class="alpha"><li>to be informed promptly of the reasons therefore;</li><li>to retain and instruct counsel without delay and to be informed of that right; and</li><li>to have the validity of the detention determined by way of habeas corpus and to be released if the detention is not lawful.</li></ol>',
     section: 'legal-rights',
     wikipedia: 'http://en.wikipedia.org/wiki/Section_Ten_of_the_Canadian_Charter_of_Rights_and_Freedoms'
   },
   {
     id: 11,
     title: 'Legal Rights',
-    markup: 'Any person charged with an offence has the right<ul><li>to be informed without unreasonable delay of the specific offence;</li></ul>',
+    markup: 'Any person charged with an offence has the right<ol class="alpha"><li>to be informed without unreasonable delay of the specific offence;</li><li>to be tried within a reasonable time;</li><li>not to be compelled to be a witness in proceedings against that person in respect of the offence;</li><li>to be presumed innocent until proven guilty according to law in a fair and public hearing by an independent and impartial tribunal;</li><li>not to be denied reasonable bail without just cause;</li><li>except in the case of an offence under military law tried before a military tribunal, to the benefit of trial by jury where the maximum punishment for the offence is imprisonment for five years or a more severe punishment;</li><li>not to be found guilty on account of any act or omission unless, at the time of the act or omission, it constituted an offence under Canadian or international law or was criminal according to the general principles of law recognized by the community of nations;</li><li>if finally acquitted of the offence, not to be tried for it again and, if finally found guilty and punished for the offence, not to be tried or punished for it again;</li><li>if found guilty of the offence and if the punishment for the offence has been varied between the time of commission and the time of sentencing, to the benefit of the lesser punishment.</li></ol>',
     section: 'legal-rights',
     wikipedia: 'http://en.wikipedia.org/wiki/Section_Eleven_of_the_Canadian_Charter_of_Rights_and_Freedoms'
   },
@@ -109,14 +109,14 @@ var rights = [
   {
     id: 15,
     title: 'Equality Rights',
-    markup: '<ol><li>Every individual is equal before and under the law and has the right to the equal protection and equal benefit of the law without discrimination and, in particular, without discrimination based on race, national or ethnic origin, colour, religion, sex, age or mental or physical disability.</li><li>Subsection (1) does not preclude any law, program or activity that has as its object the amelioration of conditions of disadvantaged individuals or groups including those that are disadvantaged because of race, national or ethnic origin, colour, religion, sex, age or mental or physical disability.</li></ol>',
+    markup: '<ol class="decimal"><li>Every individual is equal before and under the law and has the right to the equal protection and equal benefit of the law without discrimination and, in particular, without discrimination based on race, national or ethnic origin, colour, religion, sex, age or mental or physical disability.</li><li>Subsection (1) does not preclude any law, program or activity that has as its object the amelioration of conditions of disadvantaged individuals or groups including those that are disadvantaged because of race, national or ethnic origin, colour, religion, sex, age or mental or physical disability.</li></ol>',
     section: 'equality-rights',
     wikipedia: 'http://en.wikipedia.org/wiki/Section_Fifteen_of_the_Canadian_Charter_of_Rights_and_Freedoms'
   },
   {
     id: 16,
     title: 'Official Languages of Canada',
-    markup: '<ol><li>English and French are the official languages of Canada and have the equality of status and equal rights and privileges as to their use in all institutions of the Parliament and government of Canada.</li><li>English and French are the official languages of New Brunswick and have equality of status and equal rights and privileges as to their use in all institutions of the legislature and government of New Brunswick.</li><li>Nothing in this Charter limits the authority of Parliament or a legislature to advance the equality of status or use of English and French.</li></ol>',
+    markup: '<ol class="decimal"><li>English and French are the official languages of Canada and have the equality of status and equal rights and privileges as to their use in all institutions of the Parliament and government of Canada.</li><li>English and French are the official languages of New Brunswick and have equality of status and equal rights and privileges as to their use in all institutions of the legislature and government of New Brunswick.</li><li>Nothing in this Charter limits the authority of Parliament or a legislature to advance the equality of status or use of English and French.</li></ol>',
     section: 'official-languages-of-canada',
     wikipedia: 'http://en.wikipedia.org/wiki/Section_Sixteen_of_the_Canadian_Charter_of_Rights_and_Freedoms'
   },
@@ -186,7 +186,7 @@ var rights = [
   {
     id: 25,
     title: 'General',
-    markup: 'The guarantee in this Charter of certain rights and freedoms shall not be construed as to abrogate or derogate from any aboriginal, treaty or other rights or freedoms that pertain to the aboriginal peoples of Canada including<ul><li>any rights or freedoms that have been recognized by the Royal Proclamation of October 7, 1763; and</li><li>any rights or freedoms that now exist by way of land claims agreements or may be so acquired.</li></ul>',
+    markup: 'The guarantee in this Charter of certain rights and freedoms shall not be construed as to abrogate or derogate from any aboriginal, treaty or other rights or freedoms that pertain to the aboriginal peoples of Canada including<ol class="alpha"><li>any rights or freedoms that have been recognized by the Royal Proclamation of October 7, 1763; and</li><li>any rights or freedoms that now exist by way of land claims agreements or may be so acquired.</li></ol>',
     section: 'general',
     wikipedia: 'http://en.wikipedia.org/wiki/Section_Twenty-five_of_the_Canadian_Charter_of_Rights_and_Freedoms'
   },
