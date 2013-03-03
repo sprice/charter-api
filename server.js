@@ -42,5 +42,15 @@ app.get('/sections', function (req, res) {
   });
 })
 
+app.get('/sections/:id', function (req, res) {
+  rights.getSectionRights(req.params.id, function(rights) {
+    if (rights) {
+      res.send(rights);
+    } else {
+      res.send(404);
+    }
+  });
+})
+
 app.listen(port);
 console.log('Charter API running on http://localhost:' + port);

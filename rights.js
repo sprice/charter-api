@@ -318,7 +318,7 @@ module.exports.getRight = function(num, callback) {
   }
 
   // List single right
-  _.find(rights, function(right) {
+  _.find(rights, function (right) {
     if (right.id == num) {
       callback(right);
       return;
@@ -330,4 +330,19 @@ module.exports.getRight = function(num, callback) {
 
 module.exports.getSections = function(callback) {
   callback(sections);
+}
+
+module.exports.getSectionRights = function(sectionId, callback) {
+  var rightList = [];
+  _.each(rights, function (right) {
+    if (right.section == sectionId) {
+      rightList.push(right);
+    }
+  });
+  if (rightList.length > 0){
+    callback(rightList);
+    return;
+  }
+  callback(null);
+
 }
